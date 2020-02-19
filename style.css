@@ -385,7 +385,7 @@ footer {
     /* 1024pxまでの幅の場合に適応される */
     /*　for iPad 　*/
     nav {
-        display: block;
+        display: none;
     }
 
     .bg-slider {
