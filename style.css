@@ -18,6 +18,11 @@
     src: url(/fonts/Futura-Bol.ttf);
 }
 
+@font-face {
+    font-family: 'Small';
+    src: url(/fonts/Futura-DemObl.ttf);
+}
+
 body {
     width: 100%;
 }
@@ -28,11 +33,11 @@ a {
 
 nav {
     float: right;
-    display: block;
     font-size: 32px;
     position: absolute;
     top: 0px;
     right: 40px;
+    display: block;
 }
 
 nav li {
@@ -54,7 +59,7 @@ nav a:hover {
 
 .section {
     font-family: "ヒラギノ角ゴシック Pro W3";
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 /* mainvisualのスライドショー！ */
@@ -74,7 +79,6 @@ nav a:hover {
 /* スライドショー終わり */
 
 .mainVisual {
-    /*    width: 1200px;*/
     margin: 0 auto;
     height: 572px;
     padding-top: 300px;
@@ -96,7 +100,7 @@ h2 {
 h3 {
     font-weight: bold;
     font-size: 75px;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom: 30px;
     font-family: Bold;
     color: #3b5cdb;
@@ -136,6 +140,10 @@ h3 {
 img.image1,
 img.image2 {
     float: left;
+}
+
+.pcNone, #pcNone {
+    display: none;
 }
 
 a.signButton1,
@@ -263,7 +271,7 @@ right: 0;
 bottom: 0;
 */
     display: block;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 canvas {
@@ -273,7 +281,7 @@ canvas {
     z-index: 0;
 }
 
-#courses h3{
+#courses h3 {
     position: relative;
 }
 
@@ -362,5 +370,206 @@ footer {
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0);
+    }
+}
+
+/* jQuery fuwat終わり */
+
+/* メディアクエリ */
+
+/* 上記は全て、1024px以上の幅の場合に適応される */
+
+@media screen and (max-width: 1024px) {
+
+    /* 1024pxまでの幅の場合に適応される */
+    /*　for iPad 　*/
+    nav {
+        display: block;
+    }
+
+    .bg-slider {
+        height: 100%;
+    }
+
+    .mainVisual > img {
+        width: 400px;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-family: Small;
+    }
+
+    .container {
+        width: 600px;
+    }
+
+    .right-box,
+    .left-box {
+        padding: 40px 20px;
+        margin: 0px;
+        width: 560px;
+    }
+
+    img.image1,
+    img.image2 {
+        clear: both;
+        width: 600px;
+    }
+
+    a.signButton1,
+    a.signButton2 {
+        margin-top: 40px;
+    }
+
+    .spNone, #pcNone {
+        display: none;
+    }
+
+    .pcNone, #spNone {
+        display: block;
+    }
+
+    .f-container {
+        margin: 0px 0px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* 768pxまでの幅の場合に適応される */
+
+}
+
+@media screen and (max-width: 480px) {
+
+    /* 480pxまでの幅の場合に適応される */
+    nav {
+        display: none;
+    }
+
+    .bg-slider {
+        height: 100%;
+    }
+
+    .mainVisual > img {
+        width: 320px;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-family: Small;
+
+    }
+
+    .container {
+        width: 320px;
+    }
+
+    h3 {
+        font-size: 36px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .right-box,
+    .left-box {
+        padding: 30px 8px;
+        margin: 0px;
+        width: 304px;
+        font-size: 12.5px;
+        letter-spacing: 0.02px;
+    }
+
+    img.image1,
+    img.image2 {
+        clear: both;
+        width: 320px;
+    }
+
+    a.signButton1,
+    a.signButton2 {
+        padding: 5px 50px;
+        font-size: 15px;
+        width: 66px;
+    }
+
+    .section {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .f-item {
+        width: 160px;
+        height: 200px;
+    }
+
+    .spNone, #spNone {
+        display: none;
+    }
+
+    .pcNone, #pcNone {
+        display: block;
+    }
+
+    .f-container {
+        margin: 0px 0px;
+    }
+
+    .image > img {
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    .image {
+        width: 160px;
+        height: 100px;
+    }
+
+    .f-item > p {
+        margin-top: 0px;
+        margin-bottom: 24px;
+        font-size: 5px;
+    }
+
+    .button {
+        font-size: 1px;
+        padding: 10px 6px;
+        width: 90px;
+        margin-bottom: 0px;
+        border-radius: 20px;
+    }
+    
+    .slider{
+        margin-top: 40px;
+    }
+    
+    #access {
+        padding-top: 50px;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+    /* 350pxまでの幅の場合に適応される */
+    nav {
+        display: none;
+    }
+
+    .bg-slider {
+        height: 100%;
+    }
+
+    .mainVisual > img {
+        width: 300px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-family: Small;
     }
 }
