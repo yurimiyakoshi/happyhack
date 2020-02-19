@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 .section {
-    font-family: "ヒラギノ角ゴシック Pro W3";
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
     margin-bottom: 120px;
 }
 
@@ -142,7 +142,8 @@ img.image2 {
     float: left;
 }
 
-.pcNone, #pcNone {
+.pcNone,
+#pcNone {
     display: none;
 }
 
@@ -422,11 +423,13 @@ footer {
         margin-top: 40px;
     }
 
-    .spNone, #pcNone {
+    .spNone,
+    #pcNone {
         display: none;
     }
 
-    .pcNone, #spNone {
+    .pcNone,
+    #spNone {
         display: block;
     }
 
@@ -436,11 +439,13 @@ footer {
 
 }
 
+/*
 @media screen and (max-width: 768px) {
 
-    /* 768pxまでの幅の場合に適応される */
+     768pxまでの幅の場合に適応される 
 
 }
+*/
 
 @media screen and (max-width: 480px) {
 
@@ -452,6 +457,10 @@ footer {
     .bg-slider {
         height: 100%;
         width: 100%;
+    }
+
+    .mainVisual {
+        padding-top: 250px;
     }
 
     .mainVisual > img {
@@ -506,11 +515,13 @@ footer {
         height: 200px;
     }
 
-    .spNone, #spNone {
+    .spNone,
+    #spNone {
         display: none;
     }
 
-    .pcNone, #pcNone {
+    .pcNone,
+    #pcNone {
         display: block;
     }
 
@@ -541,11 +552,11 @@ footer {
         margin-bottom: 0px;
         border-radius: 20px;
     }
-    
-    .slider{
+
+    .slider {
         margin-top: 40px;
     }
-    
+
     #access {
         padding-top: 50px;
         width: 350px;
@@ -565,6 +576,10 @@ footer {
         height: 100%;
     }
 
+    .mainVisual {
+        padding-top: 250px;
+    }
+
     .mainVisual > img {
         width: 320px;
     }
@@ -617,11 +632,13 @@ footer {
         height: 200px;
     }
 
-    .spNone, #spNone {
+    .spNone,
+    #spNone {
         display: none;
     }
 
-    .pcNone, #pcNone {
+    .pcNone,
+    #pcNone {
         display: block;
     }
 
@@ -642,21 +659,21 @@ footer {
     .f-item > p {
         margin-top: 0px;
         margin-bottom: 24px;
-        font-size: 5px;
+        font-size: 15px;
     }
 
     .button {
-        font-size: 1px;
+        font-size: 10px;
         padding: 10px 6px;
         width: 90px;
         margin-bottom: 0px;
         border-radius: 20px;
     }
-    
-    .slider{
+
+    .slider {
         margin-top: 40px;
     }
-    
+
     #access {
         padding-top: 50px;
         width: 350px;
