@@ -163,7 +163,7 @@ a.signButton1:hover,
 a.signButton2:hover,
 a.button:hover {
     -webkit-box-shadow: 0 0 3px gray;
-    box-shadow: 0 0 8px -3px gray;
+    box-shadow: 0 0 12px -3px gray;
 }
 
 a.signButton1,
@@ -451,6 +451,7 @@ footer {
 
     .bg-slider {
         height: 100%;
+        width: 100%;
     }
 
     .mainVisual > img {
@@ -565,11 +566,102 @@ footer {
     }
 
     .mainVisual > img {
-        width: 300px;
+        width: 320px;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 25px;
         font-family: Small;
+
     }
+
+    .container {
+        width: 320px;
+    }
+
+    h3 {
+        font-size: 36px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .right-box,
+    .left-box {
+        padding: 30px 8px;
+        margin: 0px;
+        width: 304px;
+        font-size: 12.5px;
+        letter-spacing: 0.02px;
+    }
+
+    img.image1,
+    img.image2 {
+        clear: both;
+        width: 320px;
+    }
+
+    a.signButton1,
+    a.signButton2 {
+        padding: 5px 50px;
+        font-size: 15px;
+        width: 66px;
+    }
+
+    .section {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .f-item {
+        width: 160px;
+        height: 200px;
+    }
+
+    .spNone, #spNone {
+        display: none;
+    }
+
+    .pcNone, #pcNone {
+        display: block;
+    }
+
+    .f-container {
+        margin: 0px 0px;
+    }
+
+    .image > img {
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    .image {
+        width: 160px;
+        height: 100px;
+    }
+
+    .f-item > p {
+        margin-top: 0px;
+        margin-bottom: 24px;
+        font-size: 5px;
+    }
+
+    .button {
+        font-size: 1px;
+        padding: 10px 6px;
+        width: 90px;
+        margin-bottom: 0px;
+        border-radius: 20px;
+    }
+    
+    .slider{
+        margin-top: 40px;
+    }
+    
+    #access {
+        padding-top: 50px;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+}
 }
